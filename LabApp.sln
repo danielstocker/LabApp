@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabApp", "LabApp\LabApp.csproj", "{870860B8-2331-477C-A6BA-B2B7EB0579CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabApp", "LabApp\LabApp.csproj", "{870860B8-2331-477C-A6BA-B2B7EB0579CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabApp.Tests", "LabApp.Tests\LabApp.Tests.csproj", "{C8640DF5-D0D1-47F3-ADD6-E95DBCA49822}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabApp.Tests", "LabApp.Tests\LabApp.Tests.csproj", "{C8640DF5-D0D1-47F3-ADD6-E95DBCA49822}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "LabApp.Infra", "LabApp.Infra\LabApp.Infra.deployproj", "{237A68A3-CFFF-479F-BD76-3C7089786341}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C8640DF5-D0D1-47F3-ADD6-E95DBCA49822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8640DF5-D0D1-47F3-ADD6-E95DBCA49822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8640DF5-D0D1-47F3-ADD6-E95DBCA49822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237A68A3-CFFF-479F-BD76-3C7089786341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237A68A3-CFFF-479F-BD76-3C7089786341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237A68A3-CFFF-479F-BD76-3C7089786341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237A68A3-CFFF-479F-BD76-3C7089786341}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
